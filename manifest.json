@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "EfficientTabs",
+  "version": "1.0",
+  "description": "A Chrome extension for managing tabs",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
